@@ -24,6 +24,9 @@
 #home p {
   font-size: 13px;
 }
+.slider {
+  margin-top: -500px;
+ }
 
 .slider figure{
   top:120px;
