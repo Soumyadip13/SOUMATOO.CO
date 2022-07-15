@@ -64,7 +64,7 @@ html {
 
 #navbar ul li {
   list-style: none;
-  font-size: 1.3rem;
+ 
 }
 
 .Ankor {
@@ -73,6 +73,7 @@ html {
   padding: 3px 22px;
   border-radius: 20px;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .Ankor:hover {
@@ -108,7 +109,7 @@ html {
   width: 100vw;
   height: 642px;
   overflow: hidden;
-  margin-top: -500px;
+  margin-top: -645px;
   top: 0;
 }
 
