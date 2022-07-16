@@ -292,7 +292,7 @@ footer {
 }
 
 .fa-facebook {
-  color: darkblue
+  color: #4267B2;
 }
 
 .fa-twitter {
@@ -304,5 +304,13 @@ footer {
 }
 
 .fa-youtube-play {
-  color: red
+  color: red ;
 }
+.fa-linkedin{
+  color: #0077b5;
+}
+
+  
+  
+
+
