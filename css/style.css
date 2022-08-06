@@ -16,9 +16,9 @@ html {
 /* Preloader Css*/
 #loading {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background: #000 url('../image/ldr3.gif') no-repeat center center;
+  background: #000 url('../image/ldr.gif') no-repeat center center;
   background-size: 15%;
   z-index: 99999;
 }
