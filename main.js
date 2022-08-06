@@ -5,6 +5,7 @@ function myFunction() {
 };
 
 // Contact form by Google Sheet...
+const inputs = document.querySelectorAll('#name,#email,#phone,#message');
 var form = document.getElementById('sheetdb-form');
 form.addEventListener("submit", e => {
   e.preventDefault()
@@ -15,5 +16,9 @@ form.addEventListener("submit", e => {
     response => response.json()
   ).then((html) => {
     alert('Successfull🎉 | We will contact you within 48 hours. Stay tuned 😃...')
-  })
+  }).then(
+    inputs.forEach(input => {
+      input.value = ''; //Removing input data after submit
+    })
+  )
 });
