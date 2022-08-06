@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+/* Hidding Scrollbar */
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -106,7 +112,7 @@ html {
 */
 
 .slider {
-  width: 98.9vw;
+  width: 100vw;
   height: 642px;
   overflow: hidden;
   margin-top: -645px;
