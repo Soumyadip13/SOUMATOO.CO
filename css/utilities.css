@@ -41,14 +41,6 @@ strong {
   text-decoration: none;
 }
 
-.btn:hover,
-.btn a:hover {
-  cursor: pointer;
-  color: darkorange;
-  background-color: white;
-  border-color: orange;
-}
-
 .btn2 {
   display: flex;
   width: 100%;
@@ -58,6 +50,12 @@ strong {
 .btn2 input {
   margin: 0px 40px;
   font-family: 'Bree Serif', serif;
+}
+
+.btn:hover,
+.btn a:hover,
+.btn2 :hover{
+  cursor: pointer;
 }
 
 #submit {
