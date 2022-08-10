@@ -35,6 +35,12 @@ strong {
   font-size: 1.5rem;
   font-family: 'Bree Serif', serif;
 }
+.btn-div {
+  transition: all 0.8s ease-in-out 0s;
+}
+.btn-div:hover {
+  transform: scale(1.2);
+}
 
 .order {
   color: whitesmoke;
