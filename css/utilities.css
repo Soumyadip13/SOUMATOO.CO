@@ -41,10 +41,10 @@ strong {
 .btn-div:hover {
   transform: scale(0.8);
 }
-.box{
+.box-div{
   transition: all 0.4s ease-in-out 0s;
 }
-.box :hover{
+.box-div :hover{
   transform: scale(1.2);
 }
 .order {
