@@ -36,12 +36,17 @@ strong {
   font-family: 'Bree Serif', serif;
 }
 .btn-div {
-  transition: all 0.8s ease-in-out 0s;
+  transition: all 0.8s ease-in 0s;
 }
 .btn-div:hover {
+  transform: scale(0.8);
+}
+.box{
+  transition: all 0.4s ease-in-out 0s;
+}
+.box :hover{
   transform: scale(1.2);
 }
-
 .order {
   color: whitesmoke;
   text-decoration: none;
